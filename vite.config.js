@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: https://studynook-09.netlify.app,
+    port:5000,
     headers: {
       "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
     },
