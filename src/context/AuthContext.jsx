@@ -33,7 +33,6 @@ export function AuthProvider({ children }) {
     await api.post("/api/auth/logout");
     setUser(null);
   };
-
   return (
     <AuthContext.Provider value={{ user, loading, login, googleLogin, logout }}>
       {children}
