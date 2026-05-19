@@ -4,7 +4,6 @@ import toast from "react-hot-toast";
 import api from "../utils/api";
 import { useAuth } from "../context/AuthContext";
 import useTitle from "../hooks/useTitle";
-
 export default function Register() {
   useTitle("StudyNook – Register");
 
