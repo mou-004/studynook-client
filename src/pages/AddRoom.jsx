@@ -38,7 +38,6 @@ export default function AddRoom() {
 
   const submit = async (e) => {
     e.preventDefault();
-
     try {
       await api.post("/api/rooms", form);
       toast.success("Room added successfully");
