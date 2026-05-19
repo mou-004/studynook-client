@@ -37,8 +37,8 @@ export default function Home() {
             <h1>Find Your Perfect Study Room.</h1>
 
             <p>
-              Browse available study rooms, compare amenities, book hourly
-              slots, and manage everything from a clean personal dashboard.
+             Browse and book quiet, private study rooms in your library. 
+             List your own room and earn..
             </p>
 
             <div className="heroActions">
