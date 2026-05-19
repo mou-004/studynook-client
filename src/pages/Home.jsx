@@ -6,7 +6,6 @@ import useTitle from "../hooks/useTitle";
 
 const heroImg =
   "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1400&q=80";
-
 const studyImg =
   "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1200&q=80";
 
