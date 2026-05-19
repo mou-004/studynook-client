@@ -180,7 +180,6 @@ export default function Home() {
     gap: 55px;
     padding: 75px 8%;
   }
-
   .shape {
     position: absolute;
     border-radius: 999px;
