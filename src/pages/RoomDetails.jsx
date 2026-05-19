@@ -96,14 +96,21 @@ export default function RoomDetails() {
   return (
     <>
       <section className="section detail">
-        <img
-          className="detail-img"
-          src={room.image || fallback}
-          alt={room.name}
-          onError={(e) => {
-            e.currentTarget.src = fallback;
-          }}
-        />
+       <img
+  src={room.image || fallback}
+  alt={room.name}
+  style={{
+    width: "100%",
+    height: "360px",
+    objectFit: "cover",
+    objectPosition: "center",
+    display: "block",
+    borderRadius: "18px",
+  }}
+  onError={(e) => {
+    e.currentTarget.src = fallback;
+  }}
+/>
 
         <div className="detail-content">
           <h1>{room.name}</h1>
