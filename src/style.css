@@ -591,12 +591,7 @@ main,
   display: block;
   border-radius: 18px;
 }
-.detail-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 18px;
-}
+
 
 .detail-btn {
   min-width: 140px;
