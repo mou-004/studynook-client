@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://studynook-09.netlify.app",
+  baseURL: import.meta.env.VITE_API_URL || "https://studynook-client-2.onrender.com",
   withCredentials: true,
 });
 
