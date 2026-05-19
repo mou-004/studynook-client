@@ -12,7 +12,6 @@ const amenitiesList = [
   "Quiet Zone",
   "Air Conditioning",
 ];
-
 export default function AddRoom() {
   useTitle("StudyNook – Add Room");
 
