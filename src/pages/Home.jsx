@@ -60,7 +60,7 @@ export default function Home() {
                 <span>Hourly slots</span>
               </div>
               <div>
-                <b>0%</b>
+                <b>100%</b>
                 <span>Double booking</span>
               </div>
             </div>
