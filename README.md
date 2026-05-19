@@ -34,28 +34,52 @@ The platform uses JWT authentication stored in HTTP-only cookies to ensure secur
 
 🛠️ Technologies Used
 
-Frontend
+Frontend ::
+
 React.js
+
 React Router DOM
+
 Tailwind CSS
+
 DaisyUI
+
 Axios
+
 React Hot Toast / Sonner
+
 Framer Motion
+
 Firebase Authentication
-Backend
+
+Backend::
+
 Node.js
+
 Express.js
+
 MongoDB
+
 JWT (jsonwebtoken)
+
 Cookie Parser
+
 CORS
+
 dotenv
-🔑 Authentication Features
+
+🔑 Authentication Features ::
+
 Email & Password Login/Register
+
 Google Authentication
+
 Password Validation
+
 JWT Token Generation
+
 HTTP-only Cookie Storage
+
 Protected Private Routes
+
 Persistent Login on Reload
