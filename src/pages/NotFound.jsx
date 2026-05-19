@@ -3,7 +3,6 @@ import useTitle from "../hooks/useTitle";
 
 export default function NotFound() {
   useTitle("StudyNook – Not Found");
-
   return (
     <>
       <section className="notfound-page">
