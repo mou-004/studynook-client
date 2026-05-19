@@ -13,16 +13,27 @@ StudyNook is a responsive and recruiter-friendly study room booking platform bui
 The platform uses JWT authentication stored in HTTP-only cookies to ensure secure access to private routes and sensitive operations.
 
 ✨ Key Features
+
 🔐 Secure JWT Authentication with HTTP-only cookies
+
 🏠 Add, Update, and Delete Study Room Listings
+
 📅 Real-Time Booking System with Time Conflict Detection
+
 🔍 Search and Filter Rooms by Amenities and Room Name
+
 📱 Fully Responsive Design for Mobile, Tablet, and Desktop
+
 ⚡ Dynamic Page Titles and Smooth UI Animations
+
 📊 User Dashboard for Managing Listings and Bookings
+
 🚫 Prevents Double Booking for the Same Time Slot
+
 🔔 Toast Notifications for Success and Error Handling
+
 🛠️ Technologies Used
+
 Frontend
 React.js
 React Router DOM
