@@ -97,6 +97,7 @@ export default function RoomDetails() {
     <>
       <section className="section detail">
         <img
+          className="detail-img"
           src={room.image || fallback}
           alt={room.name}
           onError={(e) => {
@@ -108,10 +109,18 @@ export default function RoomDetails() {
           <h1>{room.name}</h1>
           <p>{room.description}</p>
 
-          <p><b>Floor:</b> {room.floor}</p>
-          <p><b>Capacity:</b> {room.capacity} people</p>
-          <p><b>Hourly Rate:</b> ${room.hourlyRate}/hr</p>
-          <p><b>Booking Count:</b> {room.bookingCount || 0}</p>
+          <p>
+            <b>Floor:</b> {room.floor}
+          </p>
+          <p>
+            <b>Capacity:</b> {room.capacity} people
+          </p>
+          <p>
+            <b>Hourly Rate:</b> ${room.hourlyRate}/hr
+          </p>
+          <p>
+            <b>Booking Count:</b> {room.bookingCount || 0}
+          </p>
 
           <div className="chips">
             {room.amenities?.map((amenity) => (
@@ -121,7 +130,10 @@ export default function RoomDetails() {
 
           <div className="detail-actions">
             {user ? (
-              <button className="btn detail-btn" onClick={() => setBookingModal(true)}>
+              <button
+                className="btn detail-btn"
+                onClick={() => setBookingModal(true)}
+              >
                 Book Now
               </button>
             ) : (
