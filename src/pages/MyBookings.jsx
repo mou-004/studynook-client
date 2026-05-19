@@ -61,14 +61,13 @@ export default function MyBookings() {
             <div className="booking-cards">
               {items.map((booking) => (
                 <article className="booking-card" key={booking._id}>
-                  <img
-                    src={
-                      booking.room?.image ||
-                      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1000&auto=format&fit=crop"
-                    }
-                    alt={booking.room?.name || "Study room"}
-                  />
-
+                 <img
+                   src={booking.room?.image || fallbackImage}
+                     alt={booking.room?.name || "Study room"}
+                        onError={(e) => {
+                         e.target.src = fallbackImage;
+                           }}
+                               />
                   <div className="booking-content">
                     <div>
                       <span className={`badge ${booking.status}`}>
