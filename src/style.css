@@ -583,15 +583,12 @@ main,
   }
 }
 ///Room deatils css//////
-.detail img {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  border-radius: 18px;
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
 }
-
 
 .detail-btn {
   min-width: 140px;
@@ -608,11 +605,6 @@ main,
   background: linear-gradient(135deg, #dc2626, #ef4444);
   font-weight: 900;
   cursor: pointer;
-}
-@media (max-width: 768px) {
-  .detail img {
-    height: 240px;
-  }
 }
 ///romdeatails modal///
 .overlay {
@@ -729,7 +721,3 @@ main,
     width: 100%;
   }
 }
-
-}
-}
-
