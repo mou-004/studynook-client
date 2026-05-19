@@ -16,7 +16,7 @@ body {
   background: #f8fafc;
 }
 
-/* Full width footer fix */
+''
 .footer {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -25,7 +25,7 @@ body {
   border-radius: 0;
 }
 
-/* Make page content separate from footer */
+
 .home-page,
 .rooms-page,
 .bookings-page,
@@ -64,7 +64,7 @@ body {
   background-position: center;
 }
 
-/* If footer appears too close */
+
 main + .footer,
 section + .footer {
   margin-top: 0;
@@ -84,22 +84,18 @@ section + .footer {
 
 
 
-
-
-
-/* Page spacing fix */
 main,
 .rooms-page,
 .home-page {
   min-height: calc(100vh - 90px);
 }
 
-/* Give every page proper bottom spacing before footer */
+
 .section {
   padding-bottom: 90px;
 }
 
-/* Rooms page empty box spacing */
+
 .empty,
 .emptyHome,
 .empty-bookings,
@@ -107,7 +103,7 @@ main,
   margin-bottom: 80px;
 }
 
-/* Rooms page specific fix */
+
 .rooms-page .section {
   padding-top: 60px;
   padding-bottom: 100px;
@@ -129,12 +125,12 @@ main,
   padding-bottom: 35px;
 }
 
-/* Remove footer top gap only when page content is enough */
+
 .home-page + .footer {
   margin-top: 40px;
 }
 
-/* Better mobile spacing */
+
 @media (max-width: 768px) {
   .section {
     padding-bottom: 70px;
@@ -582,7 +578,7 @@ main,
     transform: scale(1);
   }
 }
-///Room deatils css//////
+
 .detail > img {
   width: 100%;
   height: 360px;
@@ -620,7 +616,7 @@ main,
   font-weight: 900;
   cursor: pointer;
 }
-///romdeatails modal///
+
 .overlay {
   position: fixed;
   inset: 0;
