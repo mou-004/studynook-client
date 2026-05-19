@@ -17,7 +17,6 @@ export default function MyListings() {
       .catch(() => setRooms([]))
       .finally(() => setLoading(false));
   }, []);
-
   return (
     <>
       <main className="my-listings-page">
